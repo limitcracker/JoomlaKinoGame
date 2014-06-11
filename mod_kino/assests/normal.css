@@ -1,0 +1,47 @@
+.mod_kino_table {
+	border: solid #000000 1px;
+	box-shadow: 4px 4px 2px #888888;
+	font-size: 13px;
+}
+	
+.mod_kino_div {
+	border: solid #000000 1px;
+	box-shadow: 0px 0px 0px 0px #888888;
+	width: 190px;
+	padding: 5px;
+}
+	
+.mod_kino_div .navig img {
+	float: left;
+	padding-right: 5px;
+}
+	
+#search_draw_txt {
+	width: 50px;
+	padding-left: 10px;
+	/* padding-right: 4px; */
+}
+	
+td.selected {
+	border: 1px;
+	color: #191915;
+	vertical-align: middle;
+	padding: 2px;
+	background-color: #F2B212; /* #D5C519; */
+	border: solid #ccceee 2px;
+	text-shadow:1px 1px #EAEAE1;
+	
+	-webkit-box-shadow:0 0 13px #D5C519; 
+	-moz-box-shadow: 0 0 13px #D5C519;
+	box-shadow:0 0 13px #D5C519;
+}
+	
+td.not_selected {
+	border: 1px;
+	color: #FFFFFF;
+	vertical-align: middle;
+	padding: 2px;
+	background-color: #191915;
+	border: solid #ccceee 2px;
+	text-shadow:1px 1px #464642;
+}
